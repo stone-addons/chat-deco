@@ -3,9 +3,9 @@
     "alwaysStrict": true,
     "module": "AMD",
     "lib": ["es2015"],
-    "outFile": "build/scripts/server/entry.js"
+    "target": "es6",
+    "outFile": "build/scripts/server/entry.js",
+    "types": ["stoneserver-scripting-types"]
   },
-  "include": [
-    "src/**/*.ts"
-  ]
+  "include": ["src/**/*.ts"]
 }
