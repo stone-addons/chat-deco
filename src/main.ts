@@ -1,4 +1,6 @@
-const system = server.registerSystem<IStoneServerSystem<{}>>(0, 0);
+import { MySystem } from "./system";
+
+const system = server.registerSystem<MySystem>(0, 0);
 system.initialize = function() {
-  system.log("Mod Loaded");
+  server.log("Mod Loaded");
 };
