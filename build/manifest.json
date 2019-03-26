@@ -1,9 +1,9 @@
 {
   "format_version": 1,
   "header": {
-    "description": "$name",
-    "name": "$desc",
-    "uuid": "$uuid1",
+    "description": "Chat Decorator",
+    "name": "Decorating chat message",
+    "uuid": "451b3e8b-d11c-4d55-bcd1-a326d63d67ff",
     "version": [0, 0, 0],
     "min_engine_version": [1, 9, 0]
   },
@@ -11,7 +11,7 @@
     {
       "description": "data",
       "type": "data",
-      "uuid": "$uuid2",
+      "uuid": "2f51efd2-7188-48e9-b000-e774db23d84f",
       "version": [0, 0, 0]
     }
   ]
