@@ -22,7 +22,7 @@ steps:
 
 - script: |
     cd build
-    zip ../chat-deco.mcpack *
+    zip ../chat-deco.mcpack *  -r
   displayName: 'build pack'
 
 - task: PublishBuildArtifacts@1
